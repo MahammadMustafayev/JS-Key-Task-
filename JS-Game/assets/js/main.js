@@ -1,46 +1,46 @@
-const leftup = document.getElementById("left-up");
-const left=document.getElementById("left");
-const right= document.getElementById("right");
-const up =document.getElementById("up");
-const circle=document.getElementById("circle");
-const down =document.getElementById("down");
-const rightup =document.getElementById("right-up");
-const leftdown=document.getElementById("left-down");
-const rightdown=document.getElementById("right-down");
+let top = document.getElementById("circleId");
+let leftup = document.getElementById("left-up");
+let left = document.getElementById("left");
+let right = document.getElementById("right");
+let up = document.getElementById("up");
+let circle = document.getElementById("circle");
+let down = document.getElementById("down");
+let rightup = document.getElementById("right-up");
+let leftdown = document.getElementById("left-down");
+let rightdown = document.getElementById("right-down");
 
-
-circle.addEventListener("click",function(){
-    top.classList.toggle("top")
+circle.addEventListener("click", function () {
+    top.classList.toggle("top");
 })
 
-leftup.addEventListener("click",function(){
-    top.classList.toggle("top-leftup")
+leftup.addEventListener("click", function () {
+    top.classList.toggle("top-leftup");
 })
 
-left.addEventListener("click",function(){
-    top.classList.toggle("top-left")
+left.addEventListener("click", function () {
+    top.classList.toggle("top-left");
 })
 
-right.addEventListener("click",function(){
-    top.classList.toggle("top-right")
+right.addEventListener("click", function () {
+    top.classList.toggle("top-right");
 })
 
-up.addEventListener("click",function(){
-    top.classList.toggle("top-up")
+up.addEventListener("click", function () {
+    top.classList.toggle("top-up");
 })
 
-down.addEventListener("click",function(){
-    top.classList.toggle("top-down")
+down.addEventListener("click", function () {
+    top.classList.toggle("top-down");
 })
 
-rightup.addEventListener("click",function(){
-    top.classList.toggle("top-rightup")
+rightup.addEventListener("click", function () {
+    top.classList.toggle("top-rightup");
 })
 
-leftdown.addEventListener("click",function(){
-    top.classList.toggle("top-leftdown")
+leftdown.addEventListener("click", function () {
+    top.classList.toggle("top-leftdown");
 })
 
-rightdown.addEventListener("click",function(){
-    top.classList.toggle("top-rightdown")
+rightdown.addEventListener("click", function () {
+    top.classList.toggle("top-rightdown");
 })
