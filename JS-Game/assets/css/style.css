@@ -51,3 +51,36 @@
     background-color: salmon;
     border-radius: 25px;
 }
+.top-left{
+    width: 70px;
+    height: 70px;
+    top: 20px;
+    left: 120px;
+    background-color: rgb(252, 0, 0);
+    border-radius: 42px;
+}
+.top-right{
+    width: 70px;
+    height: 70px;
+    /* top: 20px;
+    right: 220px; */
+    margin-left: 80%;
+    background-color: rgb(252, 0, 0);
+    border-radius: 42px;
+}
+.top-down{
+    width: 70px;
+    height: 70px;
+    margin-left: 40%;
+    margin-top: 38%;
+    background-color: rgb(252, 0, 0);
+    border-radius: 42px;
+}
+.top-leftup{
+    width: 70px;
+    height: 70px;
+    top: 120px;
+    bottom: 400px;
+    background-color: rgb(252, 0, 0);
+    border-radius: 42px;
+}
